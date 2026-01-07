@@ -1,0 +1,17 @@
+x=10
+y=20
+print("Addition:", x + y)
+print("Subtraction:", y - x)
+print("Multiplication:", x * y)
+print("Division:", y / x)
+print("Floor Division:", y // x)
+print("Modulus:", y % x)
+print("Exponentiation:", x ** 2)
+print("Comparison (x < y):", x < y)
+print("Comparison (x > y):", x > y)
+print("Equality (x == y):", x == y)
+print("Inequality (x != y):", x != y)
+print(x<15 and y>15)
+print(x<15 or y<15)
+print(not(x<y))
+print("Bitwise AND:", x & y)          
