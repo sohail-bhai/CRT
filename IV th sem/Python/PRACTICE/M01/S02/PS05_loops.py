@@ -15,4 +15,9 @@ for i in range(x,y+1):
 '''
 for i in range(1,5,1):
     print("hello world")
+    
+for i in range(5,0,-1):
+    print("hello world")    
+
+
 
