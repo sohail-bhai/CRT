@@ -1,0 +1,11 @@
+import numpy as np
+arr=np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(arr)
+print(np.max(arr))
+print(np.min(arr))
+print(np.sum(arr))
+print(np.mean(arr))
+print(np.median(arr))
+print(np.arange(1,10,2)) 
+ele=list(map(int,input("Enter elements to search (space-separated): ").split()))
+print(np.array(ele))
