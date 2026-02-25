@@ -58,9 +58,21 @@ output:
   1 2
  1 2 3
 1 2 3 4
-'''
 n=int(input())
 li=""
 for i in range(n):
     li+=" "*(n-i-1)+" ".join(str(x) for x in range(1,i+2))+"\n"
 print(li)
+
+hollow pyramid pattern
+output:
+   *
+  * *
+ *   *
+* * * *
+n=int(input())
+li=""
+for i in range(n):
+    li+=" "*(n-i-1)+" ".join("*" if j==0 or j==i or i==n-1 else " " for j in range(i+1))+"\n"
+print(li)
+'''
